@@ -9,6 +9,6 @@ desarrollado con Html, Css y Javascript
 
 el fin de la app es agregar una lista de amigos y luego poder elegir uno de ellos aleatoriamente mediante el boton "sortear amigo".
 
-se desarrola como parte del programa "Principiante en programacion G8-ONE y Alura Latam"
+se desarrolla como parte del programa "Principiante en programacion G8-ONE y Alura Latam"
 
 ###################################################################
