@@ -36,3 +36,21 @@ function mostrarLista() {
         mostrarAmigos.appendChild(li);
     });
 }
+
+//Funcion sortear amigo aleatorio
+function sortearAmigo(){
+    if (listaAmigos.length === 0){
+        alert("Ingrese por lo menos un amigo");
+        return;
+    }
+
+    //Elegir un amigo aleatorio en la lista
+    const nombreAleatorio = Math.floor(Math.random() * listaAmigos.length);
+    const amigoSecreto = listaAmigos[nombreAleatorio];
+
+    //Mostrar resultado
+    const resultadoSorteoAmigo = document.getElementById("resultado");
+    resultadoSorteoAmigo.innerHTML = `<li> El amigo secreto sorteado es: <strong>${amigoSecreto}<strong><li>`;
+}
+
+//Fin del challenge
